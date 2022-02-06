@@ -12,7 +12,7 @@
 #include "pixel.hpp"
 #include "fax.hpp"
 int lineTL;
-std::string keyFax[999]; 
+std::string keyFax[99999]; 
 std::string lineT;
 
 void faxRead(std::string faxF)
