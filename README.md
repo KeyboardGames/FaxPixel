@@ -19,3 +19,7 @@ You only need to include fax.hpp and pixel.hpp in your code.
 The other two files with this library ("main.cpp" and "color.fax"), are only there for example.
 
 Project Status: FaxPixel is currently still being worked on, but can be used.
+
+
+
+#For More Info, Please Read The "Documentation.txt" File
