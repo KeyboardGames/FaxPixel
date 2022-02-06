@@ -26,7 +26,7 @@ Fax Legend:
 More yet to be created.
 
 These must all be in one line of text.
-To implement another pixel after one, you can use a space, a "?" or a "!" (as long as it's one character).
+To implement another pixel after one, you can use a space, a "?", a "!", etc (as long as it's one character).
 
 All examples are perfect representations of fax files but please remove the quotes if actually implementing these.
 
