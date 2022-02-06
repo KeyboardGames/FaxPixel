@@ -9,6 +9,6 @@ void chopFax();
 
 extern int lineTL;
 extern std::string lineT;
-extern std::string keyFax[999];
+extern std::string keyFax[99999];
 
 #endif
