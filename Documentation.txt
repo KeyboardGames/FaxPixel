@@ -17,13 +17,13 @@ The data in these files is inputted by you........ for now.
 Fax Legend:
 
 1. sP=space
-   dP=black pixel
-2. rP=red pixel
-3. gP=green pixel
-4. yP=yellow pixel
-5. bP=blue pixel
-6. wP=white pixel
-7. EN=end line
+2. dP=black pixel
+3. rP=red pixel
+4. gP=green pixel
+5. yP=yellow pixel
+6. bP=blue pixel
+7. wP=white pixel
+8. EN=end line
 More yet to be created.
 
 These must all be in one line of text.
