@@ -17,6 +17,7 @@ The data in these files is inputted by you........ for now.
 Fax Legend:
 
 1. sP=space
+   dP=black pixel
 2. rP=red pixel
 3. gP=green pixel
 4. yP=yellow pixel
