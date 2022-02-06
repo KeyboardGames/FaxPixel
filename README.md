@@ -22,4 +22,4 @@ Project Status: FaxPixel is currently still being worked on, but can be used.
 
 
 
-#For More Info, Please Read The "Documentation.txt" File
+For More Info, Please Read The "Documentation.txt" File
