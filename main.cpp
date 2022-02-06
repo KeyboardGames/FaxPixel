@@ -19,8 +19,6 @@ int main()
 
   system("clear");
   
- // cout<<"\033[1;31m███\033[0m";
- // cout<<"\033[1;34m███\033[0m\n";
   faxRead("color.fax");
   return 0;
 }
