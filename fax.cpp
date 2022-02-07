@@ -20,11 +20,18 @@ void outputFax()
   while(iC<lineTL)
   {
     
-    //black
+    //space
     if(keyFax[iC]==("s") && keyFax[iC+1]==("P"))
     {
 
       std::cout<<" ";
+    }
+
+    //black
+    if(keyFax[iC]==("d") && keyFax[iC+1]==("P"))
+    {
+      
+      std::cout<<"\033[1;30m█\033[0m";
     }
 
     //red

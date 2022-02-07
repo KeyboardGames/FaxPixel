@@ -11,9 +11,9 @@
 #include <time.h>
 #include "pixel.hpp"
 #include "fax.hpp"
-int lineTL;
-std::string keyFax[99999]; 
-std::string lineT;
+int lineTL=0;
+std::string keyFax[99999]={"","",""}; 
+std::string lineT=("");
 
 void faxRead(std::string faxF)
 {
@@ -32,14 +32,19 @@ void faxRead(std::string faxF)
     }
     verifyFaxF=2;
     fileF.close();
-  }
+  } 
 
   if(verifyFaxF==1)
   {
 
     std::cout<<"ERROR: COULDN'T READ FAX FILE"<<std::endl;
   }
+
+  if(verifyFaxF==2)
+  {
+  
   splitFax();
+  }
 }
 
 void splitFax()
@@ -69,4 +74,20 @@ void splitFax()
     lFax+=1;
   }
   outputFax();
+}
+
+void faxNext()
+{
+
+  int iD=0;
+
+  while(iD<99999)
+  {
+
+    keyFax[iD]=("");
+    iD+=1;
+  }
+
+  lineT=("");
+  lineTL=0;
 }
