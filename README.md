@@ -25,5 +25,6 @@ Project Status: FaxPixel is currently still being worked on, but can be used. So
 
 𝑵𝒆𝒙𝒕 𝑽𝒆𝒓𝒔𝒊𝒐𝒏: 𝑭𝒂𝒙𝑷𝒊𝒙𝒆𝒍 𝑽𝒆𝒓𝒔𝒊𝒐𝒏 1.0
 
-For More Info, Please Read The "Documentation.txt" File
+For More Info, Please Read The "Documentation.txt" File.
+
 Don't Forget To Check Out The Other .Fax Files in the "Example" folder.
