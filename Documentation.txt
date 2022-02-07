@@ -48,9 +48,9 @@ To add another sprite, call "nextFax();". Then, call "readFax(PATH/TO/FAX_FILE);
 
 Example Of Drawing Another Sprite:
 
-readFax("color.fax");
-nextFax();
-readFax("apple.fax");
+faxRead("color.fax");
+faxNext();
+faxRead("apple.fax");
 
 
 
