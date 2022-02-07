@@ -5,7 +5,6 @@
 
 void faxRead(std::string faxF);
 void splitFax();
-void chopFax();
 
 extern int lineTL;
 extern std::string lineT;
