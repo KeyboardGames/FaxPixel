@@ -4,7 +4,7 @@ To use the library, please include:
 #include "pixel.hpp"
 #include "fax.hpp"
 
-After that, call FaxRead("PATH/TO/FAXFILE");
+After that, call FaxRead("PATH/TO/FAX_FILE");
 This will read and output the data from the ".fax" file*
 
 
@@ -41,6 +41,18 @@ Example 3 Of A Fax File:
 "rP!wP!yP!EN!bP!wP!gP"
 
 You can read the .fax file that comes with the library as an example.
-Don't forget to read the Readme file.
 
+
+
+To add another sprite, call "nextFax();". Then, call "readFax(PATH/TO/FAX_FILE);". This will draw another sprite after the previous call to draw a sprite.
+
+Example Of Drawing Another Sprite:
+
+readFax("color.fax");
+nextFax();
+readFax("apple.fax");
+
+
+
+Don't forget to read the Readme file.
 *The library also reads ".txt" files, but I'd reccomend naming the file extension ".fax"
