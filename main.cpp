@@ -16,8 +16,6 @@ using namespace std;
 
 int main()
 {
-
-  system("clear");
   
   faxRead("color.fax");
   return 0;
