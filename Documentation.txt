@@ -4,7 +4,7 @@ To use the library, please include:
 #include "pixel.hpp"
 #include "fax.hpp"
 
-After that, call FaxRead("PATH/TO/FAX_FILE");
+After that, call readFax("PATH/TO/FAX_FILE");
 This will read and output the data from the ".fax" file*
 
 
