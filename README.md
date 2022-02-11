@@ -1,7 +1,7 @@
 # FaxPixel
 A Basic 2D "Graphics Library" For The Terminal (Linux)
 
-![Screenshot 2022-02-06 2 27 15 AM](https://user-images.githubusercontent.com/93073505/152673127-2335200c-5a8c-4eef-a521-1e98ea2f481f.png)
+![Screenshot 2022-02-11 1 51 40 PM](https://user-images.githubusercontent.com/93073505/153660183-06b8b32b-ad8d-4159-b482-d4f1e64b0c7f.png)
 
 FaxPixel is a project I am currently working on to help simplify 2D graphics for the Terminal.
 FaxPixel was built with the Clang compiler with Replit, although all the code can be used universally with mainly the MinGW compiler, and the Clang compiler. 
