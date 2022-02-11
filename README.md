@@ -21,7 +21,7 @@ Also please put the fax.cpp and pixel.cpp files in the same directory as fax.hpp
 
 Project Status: FaxPixel is currently still being worked on, but can be used. Soon, there will be a tool that will make creating a .fax file easier.
 
-𝑪𝒖𝒓𝒓𝒆𝒏𝒕 𝑽𝒆𝒓𝒔𝒊𝒐𝒏: 𝑭𝒂𝒙𝑷𝒊𝒙𝒆𝒍 𝑽𝒆𝒓𝒔𝒊𝒐𝒏 0.5
+𝑪𝒖𝒓𝒓𝒆𝒏𝒕 𝑽𝒆𝒓𝒔𝒊𝒐𝒏: 𝑭𝒂𝒙𝑷𝒊𝒙𝒆𝒍 𝑽𝒆𝒓𝒔𝒊𝒐𝒏 0.6
 
 𝑵𝒆𝒙𝒕 𝑽𝒆𝒓𝒔𝒊𝒐𝒏: 𝑭𝒂𝒙𝑷𝒊𝒙𝒆𝒍 𝑽𝒆𝒓𝒔𝒊𝒐𝒏 1.0
 
