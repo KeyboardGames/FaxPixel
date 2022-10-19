@@ -6,15 +6,8 @@
 #include <sstream>
 #include "bitmap/bitmap_image.hpp"
 #include "convert.hpp"
-int startV=0;
 
-void cutFax(int startI);
 void convertFax(std::string fileBMP, std::string fileF);
-
-void cutFax(int startI)
-{
-  startV=startI;
-}
 
 void convertFax(std::string fileBMP, std::string fileF)
 {
@@ -24,7 +17,7 @@ void convertFax(std::string fileBMP, std::string fileF)
 
   if(!image)
   {
-    printf("Error - Failed to open: input.bmp\n");
+    std::cout<<"Error - Failed to open: "<<fileBMP<<""<<std::endl;
     exit(1);
    }
 
@@ -32,30 +25,10 @@ void convertFax(std::string fileBMP, std::string fileF)
 
   const unsigned int height=image.height();
   const unsigned int width=image.width();
-
-  std::size_t heightF;
-  std::size_t widthF;
   
-  int verifyT=2;
-  if(startV==0)
+  for(std::size_t y=0; y<height; y++)
   {
-    verifyT=1;
-  }
-  if(verifyT==1)
-  {
-    heightF=height/20;
-    widthF=width/10;
-  }
-  if(verifyT==2)
-  {
-    int startVV=startV*2;
-    heightF=height/startVV;
-    widthF=width/startV;
-  }
-  
-  for(std::size_t y=0; y<heightF; y++)
-  {
-    for(std::size_t x=0; x<widthF; x++)
+    for(std::size_t x=0; x<width; x++)
     {
       rgb_t colour;
       std::size_t redC=colour.red;
@@ -63,7 +36,6 @@ void convertFax(std::string fileBMP, std::string fileF)
       std::size_t blueC=colour.blue;
 
       image.get_pixel(x, y, colour);
-      std::cout<<"red: "<<redC<<", green: "<<greenC<<", blue: "<<blueC<<""<<std::endl;
 
       //white
       if(colour.red>=150 && colour.blue>=150 && colour.green>=150)
@@ -105,6 +77,4 @@ void convertFax(std::string fileBMP, std::string fileF)
       outputA<<"EN ";
    }
    outputA.close();
-
-   std::cout<<"Total Amount of Pixels: "<<total_number_of_pixels<<""<<std::endl;
 }
