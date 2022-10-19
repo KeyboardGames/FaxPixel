@@ -3,6 +3,7 @@ Code:
 To use the library, please include:
 #include "pixel.hpp"
 #include "fax.hpp"
+#include "convert.hpp"
 
 After that, call readFax("PATH/TO/FAX_FILE");
 This will read and output the data from the ".fax" file*
@@ -12,7 +13,7 @@ This will read and output the data from the ".fax" file*
 Fax File*:
 
 The Fax File is a file in which the data for what color of pixel, and where a pixel shall be is in.
-The data in these files is inputted by you........ for now.
+The data in these files can be inputted by you or by converting a (24-bit) bitmap to a .fax file.**
 
 Fax Legend:
 
@@ -27,9 +28,9 @@ Fax Legend:
 More yet to be created.
 
 These must all be in one line of text.
-To implement another pixel after one, you can use a space, a "?", a "!", etc (as long as it's one character).
+To implement another pixel after one, you can use a space(' '), a '?', a '!', etc (as long as it's one character).
 
-All examples are perfect representations of fax files but please remove the quotes if actually implementing these.
+All examples are perfect representations of fax files, but please remove the quotes if actually implementing these.
 
 Example 1 Of A Fax File:
 "rP wP yP EN bP wP gP"
@@ -54,5 +55,13 @@ readFax("apple.fax");
 
 
 
+To convert a (24-bit) bitmap image to a .fax file, call "convertFax(PATH/TO/BMP_FILE, PATH/TO/FAX_FILE);"
+
+Example Of Converting A (24-Bit) Bitmap Image To A .Fax File:
+
+convertFax("treble.bmp", "treble.fax");
+
+
 Don't forget to read the Readme file.
 *The library also reads ".txt" files, but I'd recommend naming the file extension ".fax"
+**The call to "convertFax()" converts a (24-bit) bitmap to a .fax file
