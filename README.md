@@ -23,9 +23,9 @@ Also please put the fax.cpp, pixel.cpp, and convert.cpp files in the same direct
 
 Project Status: FaxPixel is currently still being worked on, but can be used.
 
-𝑪𝒖𝒓𝒓𝒆𝒏𝒕 𝑽𝒆𝒓𝒔𝒊𝒐𝒏: 𝑭𝒂𝒙𝑷𝒊𝒙𝒆𝒍 𝑽𝒆𝒓𝒔𝒊𝒐𝒏 0.6
+𝑪𝒖𝒓𝒓𝒆𝒏𝒕 𝑽𝒆𝒓𝒔𝒊𝒐𝒏: 𝑭𝒂𝒙𝑷𝒊𝒙𝒆𝒍 𝑽𝒆𝒓𝒔𝒊𝒐𝒏 1.0
 
-𝑵𝒆𝒙𝒕 𝑽𝒆𝒓𝒔𝒊𝒐𝒏: 𝑭𝒂𝒙𝑷𝒊𝒙𝒆𝒍 𝑽𝒆𝒓𝒔𝒊𝒐𝒏 1.0
+𝑵𝒆𝒙𝒕 𝑽𝒆𝒓𝒔𝒊𝒐𝒏: 𝑭𝒂𝒙𝑷𝒊𝒙𝒆𝒍 𝑽𝒆𝒓𝒔𝒊𝒐𝒏 1.5
 
 For More Info, Please Read The "Documentation.txt" File.
 
