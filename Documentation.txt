@@ -23,8 +23,10 @@ Fax Legend:
 4. gP=green pixel
 5. yP=yellow pixel
 6. bP=blue pixel
-7. wP=white pixel
-8. EN=end line
+7. mP=magenta pixel
+8. cP=cyan pixel
+9. wP=white pixel
+10. EN=end line
 More yet to be created.
 
 These must all be in one line of text.
