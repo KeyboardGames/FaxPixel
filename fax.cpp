@@ -62,6 +62,20 @@ void outputFax()
       std::cout<<"\033[1;34m█\033[0m";
     }
 
+    //magenta
+    if(keyFax[iC]==("m") && keyFax[iC+1]==("P"))
+    {
+
+      std::cout<<"\033[1;35m█\033[0m";
+    }
+
+    //cyan
+    if(keyFax[iC]==("c") && keyFax[iC+1]==("P"))
+    {
+
+      std::cout<<"\033[1;36m█\033[0m";
+    }
+
     //white
     if(keyFax[iC]==("w") && keyFax[iC+1]==("P"))
     {
