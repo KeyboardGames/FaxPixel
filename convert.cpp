@@ -68,9 +68,21 @@ void convertFax(std::string fileBMP, std::string fileF)
         total_number_of_pixels++;
       }
       //yellow
-      if(colour.red<=150 && colour.blue>=150 && colour.green>=150)
+      if(colour.red>=150 && colour.blue>=150 && colour.green<=150)
       {
         outputA<<"yP ";
+        total_number_of_pixels++;
+      }
+      //magenta
+      if(colour.red>=150 && colour.blue>=150 && colour.green<=150)
+      {
+        outputA<<"mP ";
+        total_number_of_pixels++;
+      }
+      //cyan
+      if(colour.red<=150 && colour.blue>=150 && colour.green>=150)
+      {
+        outputA<<"cP ";
         total_number_of_pixels++;
       }
       }
