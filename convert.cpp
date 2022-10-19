@@ -7,9 +7,9 @@
 #include "bitmap/bitmap_image.hpp"
 #include "convert.hpp"
 
-void convertFax(std::string fileBMP, std::string fileF);
+void faxConvert(std::string fileBMP, std::string fileF);
 
-void convertFax(std::string fileBMP, std::string fileF)
+void faxConvert(std::string fileBMP, std::string fileF)
 {
   std::ofstream outputA;
   outputA.open(fileF.c_str());
