@@ -19,7 +19,7 @@ The library has six main files (excluding the bitmap library included in the Fax
 
 You only need to include fax.hpp, pixel.hpp, and convert.hpp in your code.
 The other two files with this library ("main.cpp" and "color.fax"), are only there for example.
-Also please put the fax.cpp, pixel.cpp, and convert.cpp files in the same directory as fax.hpp, pixel.hpp, and convert.hpp.
+Also please put the fax.cpp, pixel.cpp, and convert.cpp files in the same directory as fax.hpp, pixel.hpp, and convert.hpp (also the "bitmap" folder is needed in the same directory).
 
 Project Status: FaxPixel is currently still being worked on, but can be used.
 
